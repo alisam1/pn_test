@@ -1,0 +1,47 @@
+@mixin button {
+  padding-left: 1.1rem;
+  padding-right: 1.3rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border: none;
+  background: #e5e5e5;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #000000;
+}
+
+@mixin price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #ff0d29;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: #232735;
+  box-shadow: 0 0 0.2rem rgba(94, 119, 157, 0.25);
+  border-radius: 3.2rem;
+  padding-left: 3.8rem;
+  padding-right: 1.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+@mixin text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 150%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}

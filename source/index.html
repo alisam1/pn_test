@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>St. Petersburg Real Estate</title>
+</head>
+<body>
+
+    <section class="main">
+
+        <div class="main__top">
+            <div class="main__search">
+                <input type="search" placeholder="Введите ЖК / корпус / № квартиры / № паркинга">
+            </div>
+            <div class="main__select">
+                <div class="main__select-all">Все статусы</div>
+                <div class="main__select-choise">
+                    <div class="main__checkbox">
+                        <input type="checkbox" id="booked" name="booked" value="booked">
+                        <label for="booked">Забронировано</label>
+                    </div>
+                    <div class="main__checkbox">
+                        <input type="checkbox" id="sale" name="sale" value="sale">
+                        <label for="sale">Продано</label>
+                    </div>
+                    <div class="main__checkbox">
+                        <input type="checkbox" id="active" name="active" value="active">
+                        <label for="active">Активно</label>
+                    </div>
+                </div>
+            </div>
+            <button class="main__button main__button--cancel">Очистить корзину</button>
+        </div>
+
+        <div class="main__buttons-group">
+            <div class="main__checkbox main__checkbox--group">
+                <input type="checkbox" id="all" name="all" value="all">
+                <label for="all">Все</label>
+            </div>
+            <a href="" class="main__button main__button--save">Сохранить</a>
+            <a href="mailto: test@test.ru" class="main__button main__button--send">Отправить</a>
+            <button class="main__button main__button--delete">Удалить</button>
+        </div>
+
+
+        <div class="main__block">
+            <div class="card main__card">
+                <div class="card__left">
+                    <div class="main__checkbox main__checkbox--group">
+                        <input type="checkbox" id="card_1" name="card_1" value="1">
+                        <label for="card_1">Все</label>
+                    </div>
+                </div>
+                <div class="card__middle">
+                    <div class="card__about">
+                        <div class="card__content">
+                            <p class="card__price">7 733 300 руб.</p>
+                            <span class="card__label card__label--flat">Квартира</span>
+                        </div>
+                        <p class="card__location">Чистое Небо, <span>корпус 10, III кв. 2022 г.</span></p>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__content-left">
+                            <p class="card__number">кв. 62</p>
+                            <p class="card__room">1 комн. кв.</p>
+                        </div>
+                        <div class="card__content-right">
+                            <p class="card__square">234.38 м²</p>
+                            <p class="card__level">7 этаж</p>
+                        </div>
+                    </div>
+                    <p class="card__address">Лен. область, Всеволожский район,
+                    д. Кудрово, ул. Столичная, д. 5, к. 1</p>
+                </div>
+                <div class="card__right">
+                    <div class="card__attention card__attention--red">Уступка от юр. лица</div>
+                    <div class="card__img">
+                        <img src="img/img_1.png" alt="img_1">
+                    </div>
+                    <div class="card__date">Добавлено 21/11/2020</div>
+                </div>
+            </div>
+            <div class="card main__card">
+                <div class="card__left">
+                    <div class="main__checkbox main__checkbox--group">
+                        <input type="checkbox" id="card_2" name="card_2" value="2">
+                        <label for="card_2">Все</label>
+                    </div>
+                </div>
+                <div class="card__middle">
+                    <div class="card__about">
+                        <div class="card__content">
+                            <p class="card__price">7 733 300 руб.</p>
+                            <span class="card__label card__label--parking">Паркинг</span>
+                        </div>
+                        <p class="card__location">Зеленый квартал на Пулковских
+                        высотах, <span>корпус 10, III кв. 2022 г.</span></p>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__content-left">
+                            <p class="card__number">кв. 62</p>
+                            <p class="card__room">1 комн. кв.</p>
+                        </div>
+                        <div class="card__content-right">
+                            <p class="card__square">234.38 м²</p>
+                            <p class="card__level">7 этаж</p>
+                        </div>
+                    </div>
+                    <p class="card__address card__address--one">Комендантский пр., уч. 1 Каменка</p>
+                </div>
+                <div class="card__right">
+                    <div class="card__attention card__attention--blue">Уступка от физ. лица</div>
+                    <div class="card__img">
+                        <img src="img/img_1.png" alt="img_1">
+                    </div>
+                    <div class="card__date">Добавлено 21/11/2020</div>
+                </div>
+            </div>
+            <div class="card main__card">
+                <div class="card__left">
+                    <div class="main__checkbox main__checkbox--group">
+                        <input type="checkbox" id="card_3" name="card_3" value="3">
+                        <label for="card_3">Все</label>
+                    </div>
+                </div>
+                <div class="card__middle">
+                    <div class="card__about">
+                        <div class="card__content">
+                            <p class="card__price">800 300 руб.</p>
+                            <span class="card__label card__label--parking">Паркинг</span>
+                        </div>
+                        <p class="card__location">Чистое Небо, <span>корпус 10, III кв. 2022 г.</span></p>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__content-left card__content-left--office">
+                            <p class="card__number">№ 7-10-2 (ПИБ №68)</p>
+                            <p class="card__room"></p>
+                        </div>
+                        <div class="card__content-right">
+                            <p class="card__square">15 м²</p>
+                            <p class="card__level"></p>
+                        </div>
+                    </div>
+                    <p class="card__address">Ленинградская область, Всеволожский район, д. Кудрово, ул. Столичная,
+                    д. 5, к. 1</p>
+                </div>
+                <div class="card__right">
+                    <div class="card__attention card__attention--grey">Забронировано</div>
+                    <div class="card__img">
+                        <img src="img/img_1.png" alt="img_1">
+                    </div>
+                    <div class="card__date">Добавлено 21/11/2020</div>
+                </div>
+            </div>
+            <div class="card main__card">
+                <div class="card__left">
+                    <div class="main__checkbox main__checkbox--group">
+                        <input type="checkbox" id="card_4" name="card_4" value="4">
+                        <label for="card_4">Все</label>
+                    </div>
+                </div>
+                <div class="card__middle">
+                    <div class="card__about">
+                        <div class="card__content">
+                            <p class="card__price">800 300 руб.</p>
+                            <span class="card__label card__label--parking">Паркинг</span>
+                        </div>
+                        <p class="card__location">Чистое Небо, <span>корпус 10, III кв. 2022 г.</span></p>
+                    </div>
+                    <div class="card__info">
+                        <div class="card__content-left card__content-left--office">
+                            <p class="card__number">№ 7-10-2 (ПИБ №68)</p>
+                            <p class="card__room"></p>
+                        </div>
+                        <div class="card__content-right">
+                            <p class="card__square">15 м²</p>
+                            <p class="card__level"></p>
+                        </div>
+                    </div>
+                    <p class="card__address">Ленинградская область, Всеволожский район, д. Кудрово, ул. Столичная,
+                    д. 5, к. 1</p>
+                </div>
+                <div class="card__right">
+                    <div class="card__attention card__attention--darkgrey">Продано</div>
+                    <div class="card__img">
+                        <img src="img/img_1.png" alt="img_1">
+                    </div>
+                    <div class="card__date">Добавлено 21/11/2020</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
